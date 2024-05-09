@@ -58,15 +58,16 @@ card.markdown(
             box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
             text-align: center;
             margin: 50px auto;
-            width: 400px;
+            width: 80%;
+            max-width: 600px;
         }
         h1{
             color:white;
         }
         [data-testid="stButton"] {
-            width: 250px; /* Adjust button width */
-            height: 100px; /* Adjust button height */
-            font-size: 24px; /* Adjust font size */
+            width: 250px; 
+            height: 100px; 
+            font-size: 50px; 
         }
     </style>
     """,
